@@ -1,0 +1,48 @@
+.languages__item {
+  font-weight: 700;
+  font-size: 34px;
+}
+.languages__list {
+  padding-left: 160px;
+}
+
+.information {
+  display: flex;
+  justify-content: space-evenly;
+}
+.title {
+  padding: 40px;
+  text-align: center;
+  color: #e9eff5;
+  font-family: Verdana, Geneva, Tahoma, sans-serif, cursive;
+  text-shadow: 8px 2px 2px #000;
+  font-weight: 900;
+  font-size: 45px;
+}
+
+.title__name {
+  line-height: 22px;
+  color: rgb(69, 105, 238);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: 700;
+  font-size: 34px;
+  text-shadow: 1px 1px 1px rgb(137, 120, 120);
+}
+.flag__img {
+  display: flex;
+  border: solid;
+  width: 100%;
+  box-shadow: 9px 5px 14px #281614;
+}
+
+.description {
+  text-align: start;
+}
+
+.description p,
+li {
+  margin-top: 0;
+  color: aliceblue;
+  font-weight: 700;
+  font-size: 34px;
+}

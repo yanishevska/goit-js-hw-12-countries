@@ -1,0 +1,17 @@
+.country__list {
+  text-align: start;
+  display: inline-table;
+}
+
+.country__item {
+  padding: 5px;
+}
+
+.country-link {
+  text-decoration: none;
+  color: rgb(240, 226, 226);
+  text-align: start;
+  font-weight: 600;
+
+  text-shadow: 4px 2px 2px rgb(0, 0, 0);
+}
