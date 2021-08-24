@@ -17,11 +17,9 @@ function renderCountryList(countries) {
     
     if(countries.length === 1) {
         renderCountryItem(countries)
-    }
-    
-    else if(countries.status === 404){
-        return error ({    
-            text: ' No countries found. Please enter a more specific query',
+    } else if(countries.status === 404){
+         error ({    
+            text: 'No countries found. Please enter a more specific query',
             styling: 'brighttheme',
             delay: 2000,
         });
