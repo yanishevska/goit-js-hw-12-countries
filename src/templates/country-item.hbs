@@ -1,17 +1,17 @@
 {{#each this}}
-<h1 class="title">{{name}}</h1>
+<h1 class="title">{{name.official}}</h1>
    <div class="information">
       <div class="description">
            <p><span class="title__name">Capital:</span>  {{capital}}</p>
            <p><span class="title__name">Population:</span>  {{population}}</p>
            <p><span class="title__name">Languages:</span></p>
              <ul class="languages__list">{{#each languages}} 
-                 <li class="languages__item">{{this.name}}</li>
+                 <li class="languages__item">{{this}}</li>
              {{/each}}
              </ul>
       </div>
        <div class="flag">
-           <img src="{{flag}}" alt="flag" width="400" height="300" class="flag__img">
+           <img src="{{flags.svg}}" alt="flag" width="400" height="300" class="flag__img">
        </div>
 </div>
 {{/each}}
